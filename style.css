@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: 'open sans' sans-serif 'Montserrat';
+    padding: 0;
 }
 /* header section */
 .header{
@@ -42,17 +43,19 @@
     font-weight: 700;
 }
 /* main section */
-.section-about{
+/* .section-about{
     align-items: center;
-} 
+}  */
 .about-container{
     display: flex;
+    gap: 10px;
 }
 .about{
-    padding-top:300px;
-    padding-left: 400px;
+    padding-left: 206px;
+    padding-top: 100px;
 } 
 .about-title{
+    margin-top: 150px;
     font-size: 65px;
     font-weight: 800;
 }
@@ -65,4 +68,7 @@
 .about-list{
     font-size: 22px;
     color: #707070;
+}
+.about-img{
+    height: 5000px;
 }

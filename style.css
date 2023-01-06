@@ -41,3 +41,28 @@
     padding: 10px 30px;
     font-weight: 700;
 }
+/* main section */
+.section-about{
+    align-items: center;
+} 
+.about-container{
+    display: flex;
+}
+.about{
+    padding-top:300px;
+    padding-left: 400px;
+} 
+.about-title{
+    font-size: 65px;
+    font-weight: 800;
+}
+.about-description{
+  font-size: 22px;
+  color: #707070;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+.about-list{
+    font-size: 22px;
+    color: #707070;
+}

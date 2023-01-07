@@ -98,3 +98,8 @@
     font-size:25px ;
     color: #707070;
 }
+/* talent section */
+.talent-container{
+    display: flex;
+    justify-content: space-evenly;
+}

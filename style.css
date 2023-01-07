@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital@0;1&family=Roboto&display=swap');
 *{
     margin: 0;
-    font-family: 'open sans' sans-serif 'Montserrat';
     padding: 0;
+}
+body{
+    font-family: 'Roboto';
 }
 /* header section */
 .header{
@@ -49,6 +52,9 @@
 .about-container{
     display: flex;
     gap: 10px;
+}
+.about-1{
+    margin-left: 200px;
 }
 .about{
     padding-left: 206px;
@@ -120,6 +126,41 @@
     font-size: 50px;
     margin-top: 30px;
 }
+/* gradient img */
+.btn-call{
+    color: darkorange;
+    background-color: rgb(255, 255, 255) ;
+    border:none;
+    border-radius: 7px;
+    font-size: 27px;
+    height: 50px;
+    padding: 5px 20px;
+    font-weight: 700;
+    margin-top:35px ;
+}
+.call-img{
+    background-image: url(images/watch.png);
+    /* background-repeat: no-repeat; */
+    margin: 100px 400px;
+    height: 250px;
+    width: 1100px;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    
+}
+.gradient-img{
+    position:absolute ;
+    height: 100%;
+    width: 100%;
+}
+.call-box{
+    margin: 40px 30px;
+    font-size:25px;
+    z-index: 1;
+}
 /* footer section */
 .footer-container{
     display: flex;
@@ -137,7 +178,7 @@ footer{
     padding-left: 350px;
 }
 .footer-2{
-    padding-right: 550px;
+    padding-right: 400px;
 }
 .footer-title{
     font-size: 70px;
@@ -155,4 +196,32 @@ footer{
 .footer-img{
     display: flex;
     gap: 35px;
+}
+.footer-title-2{
+    
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+.footer-email{
+    display: block;
+    background-color: rgb(22, 22, 22);
+    font-size: 25px;
+    color: white;
+    padding:15px;
+    margin-bottom: 25px;
+    border: 1px solid white ;
+    border-radius: 10px;
+}
+.footer-btn{
+    color: darkorange;
+    background-color: rgb(255, 255, 255) ;
+    border:0;
+    border-radius: 7px;
+    font-size: 27px;
+    height: 60px;
+    padding: 5px 20px;
+    font-weight: 700;
+}
+.hr{
+    display: flex;
 }

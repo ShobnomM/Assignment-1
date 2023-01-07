@@ -97,9 +97,62 @@
 .sub-title{
     font-size:25px ;
     color: #707070;
+    padding-bottom: 80px;
 }
 /* talent section */
+.talent-head{
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 50px;
+}
 .talent-container{
     display: flex;
     justify-content: space-evenly;
+}
+.talent{
+    border-radius: 10px;
+    padding: 80px 90px 40px 90px;
+    background-color: rgb(252, 252, 238);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.06);
+}
+.talent-title{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+/* footer section */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color: black;
+}
+.footer{
+   color: white;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.footer-1{
+    padding-left: 350px;
+}
+.footer-2{
+    padding-right: 550px;
+}
+.footer-title{
+    font-size: 70px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.footer-description{
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.footer-info{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.footer-img{
+    display: flex;
+    gap: 35px;
 }
